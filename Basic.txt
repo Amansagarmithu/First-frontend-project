@@ -1,0 +1,29 @@
+file
+pdf
+image {jpeg,png}
+docx,pptx
+video file {mp4,3gp}
+
+java = java file = file_name.java
+c++ = c++ file = file_name.cpp
+
+Html (markup language) -> filename.Html
+css (styling language) -> filename.css
+
+VS CODE Shortcuts are :-
+
+saving a file: ctrl+s
+copy : ctrl + c
+paste : ctrl + v
+undo : ctrl + z
+redo : ctrl + y
+select a line : ctrl + l
+shift +placeholder1+placeholder2 = to select the content in betwween
+select all -> ctrl + a 
+multi cursor:{
+    first way : long press alt + place your cursor
+    select multi duplicate: ctrl + d
+}
+search something : ctrl + f
+zoom in : ctrl + +
+zoom out : ctrl + -
