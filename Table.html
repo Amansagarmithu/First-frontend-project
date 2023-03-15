@@ -46,28 +46,38 @@
     <input type="radio">
     <input type="email" placeholder="email">
     <input type="submit" value="different value">
+    <br>
+    <br>
+    <h1>This is form :- <br></h1>
 
 
 
     <form>
-        <input type="text" placeholder="username">
-        <input type="email" placeholder="password">
-        <input type="number" placeholder="mibile">
+        <input type="text" placeholder="username" name="USERNAME" required>
+        <input type="email" placeholder="password"name="EMAIL" required>
+        <input type="number" placeholder="mibile"name="NUMBER" required>
         <div>
             <div>
                 <label for="Male">Male</label>
-                <input type="radio" id="Male">
+                <input type="radio" id="Male" value="m" name="gender">
             </div>
             <div>
                 <label for="Female">Female</label>
-                <input type="radio" id="Female">
+                <input type="radio" id="Female" value="f" name="gender">
             </div>
             <div>
                 <label for="Other">Other</label>
-                <input type="radio" id="Other">
+                <input type="radio" id="Other"value="o" name="gender">
             </div>
         </div>
-        <input type="submit">
+        <input type="submit" value="sign up">
     </form>
+    <!-- http://127.0.0.1:5500/Table.html?USERNAME=Aman+Sagar&EMAIL=Aman%40123&NUMBER=7004275370&gender=m
+    Watch this url carefully
+    USERNAME=Aman+Sagar (this is what you wrote in name = "USERNAME" and Aman Sagar that you wrote in website)
+    EMAIL=Aman%40123    (this is what you wrote in name = "EMAIL" and Aman@123 that you wrote in website) 
+    NUMBER=7004275370   (this is what you wrote in name = "NUMBER" and 7004275370 that you wrote in website)
+    gender=m            (this is what you wrote in name = "gender" and m that you chose in the radio box and m is value of that radio box)
+    -->
 </body>
 </html>
